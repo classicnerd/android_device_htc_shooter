@@ -164,6 +164,11 @@ PRODUCT_COPY_FILES += \
     device/htc/shooter/prebuilt/system/lib/modules/wimaxdbg.ko:system/lib/modules/wimaxdbg.ko \
     device/htc/shooter/prebuilt/system/lib/modules/wimaxuart.ko:system/lib/modules/wimaxuart.ko
 
+# Changelog and Team Information
+PRODUCT_COPY_FILES +=\
+    vendor/cn/prebuilt/common/etc/CHANGELOG.html.gz:system/etc/CHANGELOG.html.gz \
+    vendor/cn/prebuilt/common/etc/CLASSIC.html.gz:system/etc/CLASSIC.html.gz
+
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
 
@@ -196,7 +201,7 @@ $(call inherit-product, device/htc/common/common.mk)
 
 $(call inherit-product, build/target/product/full_base_telephony.mk)
 
-PRODUCT_NAME := full_shooter
+PRODUCT_NAME := classic_shooter
 PRODUCT_DEVICE := shooter
 PRODUCT_MODEL := HTC Evo 3D
 PRODUCT_MANUFACTURER := HTC
