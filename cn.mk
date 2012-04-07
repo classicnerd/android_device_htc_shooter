@@ -18,7 +18,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_shooter BUILD_FINGERPRINT=sprin
 PRODUCT_CODENAME := Butta
 PRODUCT_VERSION_DEVICE_SPECIFIC := 1
 
-PRODUCT_MOTD :="Thank you for choosing Classicnerd Shooter ICS edition.  Check out our website @ www.classicnerd.net for further details."
+PRODUCT_MOTD :="Thank you for choosing Classicnerd Shooter\nGet the latest rom at www.classicnerd.net\nEnjoy the possibilities"
 
 #PRODUCT_PACKAGES += \
     Camera
