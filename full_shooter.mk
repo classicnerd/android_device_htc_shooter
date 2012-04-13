@@ -169,13 +169,6 @@ PRODUCT_COPY_FILES +=\
     vendor/cn/prebuilt/common/etc/CHANGELOG.html.gz:system/etc/CHANGELOG.html.gz \
     vendor/cn/prebuilt/common/etc/CLASSIC.html.gz:system/etc/CLASSIC.html.gz
 
-# Hack way to get camera app to install
-PRODUCT_COPY_FILES +=\
-    device/htc/shooter/prebuilt/system/app/Camera.apk:system/app/Camera.apk \
-    device/htc/shooter/prebuilt/system/lib/libcameraface.so:system/lib/libcameraface.so \
-    device/htc/shooter/prebuilt/system/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    device/htc/shooter/prebuilt/system/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
-    device/htc/shooter/prebuilt/system/lib/libcamerapp.so:system/lib/libcamerapp.so
 
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
