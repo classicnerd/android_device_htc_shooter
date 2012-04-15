@@ -142,20 +142,51 @@ PRODUCT_COPY_FILES += \
     device/htc/shooter/prebuilt/system/etc/CodecDSPID_WB.txt:system/etc/CodecDSPID_WB.txt \
     device/htc/shooter/prebuilt/system/etc/TPA2051_CFG.csv:system/etc/TPA2051_CFG.csv \
     device/htc/shooter/prebuilt/system/etc/TPA2051_CFG_XC.csv:system/etc/TPA2051_CFG_XC.csv \
+    device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Beats.txt:system/etc/soundimage/Sound_Beats.txt \
+    device/htc/shooter/prebuilt/system/etc/soundimage/Sound_FM_HP.txt:system/etc/soundimage/Sound_FM_HP.txt \
+    device/htc/shooter/prebuilt/system/etc/soundimage/Sound_FM_SPK.txt:system/etc/soundimage/Sound_FM_SPK.txt \
+    device/htc/shooter/prebuilt/system/etc/soundimage/Sound_MFG.txt:system/etc/soundimage/Sound_MFG.txt \
     device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Original_Recording.txt:system/etc/soundimage/Sound_Original_Recording.txt \
     device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Original_SPK.txt:system/etc/soundimage/Sound_Original_SPK.txt \
     device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Original.txt:system/etc/soundimage/Sound_Original.txt \
+    device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Original_MFG.txt:system/etc/soundimage/Sound_Original_MFG.txt \
+    device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Original_Rec_MFG.txt:system/etc/soundimage/Sound_Original_Rec_MFG.txt \
+    device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Phone_Original.txt:system/etc/soundimage/Sound_Phone_Original.txt \
     device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Phone_Original_HP.txt:system/etc/soundimage/Sound_Phone_Original_HP.txt \
     device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Phone_Original_REC.txt:system/etc/soundimage/Sound_Phone_Original_REC.txt \
     device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Phone_Original_SPK.txt:system/etc/soundimage/Sound_Phone_Original_SPK.txt \
+    device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Phone_Original_SPK_WB.txt:system/etc/soundimage/Sound_Original_SPK_WB.txt \
+    device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Phone_Original_REC.txt:system/etc/soundimage/Sound_Phone_Original_REC.txt \
+    device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Phone_Original_REC_NEL.txt:system/etc/soundimage/Sound_Phone_Original_REC_NEL.txt \
+    device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Phone_Original_HP_WB.txt:system/etc/soundimage/Sound_Phone_Original_HP_WB.txt \
     device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Rec_Landscape.txt:system/etc/soundimage/Sound_Rec_Landscape.txt \
+    device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Rec_mono.txt:system/etc/soundimage/Sound_Rec_mono.txt \
     device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Rec_Portrait.txt:system/etc/soundimage/Sound_Rec_Portrait.txt \
+    device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Rec_Voice_record.txt:system/etc/soundimage/Sound_Rec_Voice_record.txt \
     device/htc/shooter/prebuilt/system/etc/soundimage/Sound_Recording.txt:system/etc/soundimage/Sound_Recording.txt \
     device/htc/shooter/prebuilt/system/etc/soundimage/srs_geq10.cfg:system/etc/soundimage/srs_geq10.cfg \
     device/htc/shooter/prebuilt/system/etc/soundimage/srsfx_trumedia_51.cfg:system/etc/soundimage/srsfx_trumedia_51.cfg \
     device/htc/shooter/prebuilt/system/etc/soundimage/srsfx_trumedia_movie.cfg:system/etc/soundimage/srsfx_trumedia_movie.cfg \
     device/htc/shooter/prebuilt/system/etc/soundimage/srsfx_trumedia_music.cfg:system/etc/soundimage/srsfx_trumedia_music.cfg \
     device/htc/shooter/prebuilt/system/bin/snd3254:system/bin/snd3254
+
+# Hack Beats Trial by Leoisright
+PRODUCT_COPY_FILES += \
+    device/htc/shooter/prebuilt/system/etc/basimage_gec.bin:system/etc/baseimage_gec.bin \
+    device/htc/shooter/prebuilt/system/etc/basimage_ibeats.bin:system/etc/basimage_ibeats.bin \
+    device/htc/shooter/prebuilt/system/etc/basimage_ibeats_solo.bin:system/etc/basimage_ibeats_solo.bin \
+    device/htc/shooter/prebuilt/system/etc/dynimage_ibeats.bin:system/etc/dynimage_ibeats.bin \
+    device/htc/shooter/prebuilt/system/etc/dynimage_ibeats_solo.bin:system/etc/dynimage_ibeats_solo.bin \
+    device/htc/shooter/prebuilt/system/etc/peqimage_gec.bin:system/etc/peqimage_gec.bin \
+    device/htc/shooter/prebuilt/system/etc/peqimage_ibeats.bin:system/etc/peqimage_ibeats.bin \
+    device/htc/shooter/prebuilt/system/etc/vomeComp.cfg:system/etc/vomeComp.cfg \
+    device/htc/shooter/prebuilt/system/etc/vomeComp_RTSP.cfg:system/etc/vomeComp_RTSP.cfg \
+    device/htc/shooter/prebuilt/system/etc/vomeCore.cfg:system/etc/vomeCore.cfg \
+    device/htc/shooter/prebuilt/system/etc/vomeplay.cfg:system/etc/vomeplay.cfg \
+    device/htc/shooter/prebuilt/system/etc/vommcodec.cfg:system/etc/vommcodec.cfg \
+    device/htc/shooter/prebuilt/system/etc/voPDLog.cfg:system/etc/voPDLog.cfg \
+    device/htc/shooter/prebuilt/system/etc/voVidDec.dat:system/etc/voVidDec.dat \
+    device/htc/shooter/prebuilt/system/etc/vpimg:system/etc/vpimg 
 
 # Wifi Module
 PRODUCT_COPY_FILES += \
@@ -167,8 +198,9 @@ PRODUCT_COPY_FILES += \
 # Changelog and Team Information
 PRODUCT_COPY_FILES +=\
     vendor/cn/prebuilt/common/etc/CHANGELOG.html.gz:system/etc/CHANGELOG.html.gz \
-    vendor/cn/prebuilt/common/etc/CLASSIC.html.gz:system/etc/CLASSIC.html.gz
-
+    vendor/cn/prebuilt/common/etc/CLASSIC.html.gz:system/etc/CLASSIC.html.gz \
+    device/htc/shooter/prebuilt/system/app/HTCCamera.apk:system/app/HTCCamera.apk \
+    device/htc/shooter/prebuilt/system/app/TVOut.apk:system/app/TVOut.apk
 
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise

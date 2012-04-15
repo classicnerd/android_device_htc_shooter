@@ -20,7 +20,7 @@ PRODUCT_VERSION_DEVICE_SPECIFIC := 2
 
 PRODUCT_MOTD :="Thank you for choosing Classicnerd Shooter\nGet the latest rom at www.classicnerd.net\nEnjoy the possibilities"
 
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     Camera
 
 # Copy compatible prebuilt files
