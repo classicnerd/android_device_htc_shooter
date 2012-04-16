@@ -199,9 +199,7 @@ PRODUCT_COPY_FILES += \
 # Changelog and Team Information
 PRODUCT_COPY_FILES +=\
     vendor/cn/prebuilt/common/etc/CHANGELOG.html.gz:system/etc/CHANGELOG.html.gz \
-    vendor/cn/prebuilt/common/etc/CLASSIC.html.gz:system/etc/CLASSIC.html.gz \
-    device/htc/shooter/prebuilt/system/app/HTCCamera.apk:system/app/HTCCamera.apk \
-    device/htc/shooter/prebuilt/system/app/TVOut.apk:system/app/TVOut.apk
+    vendor/cn/prebuilt/common/etc/CLASSIC.html.gz:system/etc/CLASSIC.html.gz 
 
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
